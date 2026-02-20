@@ -1,0 +1,60 @@
+Plan of Action & Milestones (POA&M)
+
+### Finding ID: POAM-001  
+**Control ID:** AC-6  
+**Control Name:** Least Privilege  
+**Risk Level:** High    
+
+---
+
+### Finding Description
+User accounts within the enterprise environment have excessive permissions not aligned with job responsibilities. No formal access review or recertification process exists. This condition increases the likelihood of unauthorized access to sensitive systems and data.
+
+---
+
+### Root Cause
+- Lack of formal RBAC framework  
+- No periodic access review process  
+- No documented access governance policy  
+
+---
+
+### Risk Impact
+Excessive privilege assignments increase exposure to insider threat, credential misuse, and lateral movement across critical systems. Potential impact includes unauthorized access to PHI and payment systems.
+
+---
+
+### Planned Remediation Actions
+1. Design and implement Role-Based Access Control (RBAC) model.
+2. Inventory all privileged accounts.
+3. Remove excessive permissions.
+4. Implement quarterly access recertification process.
+5. Update Access Control Policy documentation.
+
+---
+
+### Milestones
+
+| Milestone                                  | Responsible Party | Target Date | Status |
+|--------------------------------------------|-------------------|-------------|--------|
+| RBAC design completed                      | IAM Team          | 30 Days     | Planned |
+| Privileged account audit                   | IAM Team          | 45 Days     | Planned |
+| Access recertification process implemented | GRC Team          | 60 Days     | Planned |
+| Policy updated and approved                | CISO              | 75 Days     | Planned |
+
+---
+
+### Resources Required
+- IAM administrative support  
+- Directory service access (Active Directory or equivalent)  
+- Executive approval for policy enforcement  
+
+---
+
+### Residual Risk After Remediation
+Risk expected to decrease from High to Moderate once RBAC and quarterly reviews are fully operational.
+
+---
+
+### Executive Risk Acceptance Required?
+No – remediation plan approved for implementation.
