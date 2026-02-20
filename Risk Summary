@@ -1,0 +1,9 @@
+## Risk Summary
+
+| Control  | Likelihood | Impact | Overall Risk |
+|----------|------------|--------|--------------|
+| AC-6     | High       | High   | High         |
+| CA-7     | High       | High   | High         |
+| RA-3     | Medium     | High   | High         |
+| CA-5     | Medium     | Medium | Moderate     |
+| RA-7     | Medium     | Medium | Moderate     |
